@@ -1,0 +1,20 @@
+### Nutritional Analysis Report
+
+#### Key Findings:
+- Category with the highest calories: Smoothies & Shakes (531.4285714285714 kcal)
+- Category with the lowest calories: Beverages (113.70370370370372 kcal)
+- Average Calories: 354.73 kcal
+- Average Total Fat: 14.27 g
+- Average Protein: 14.15 g
+- Average Carbohydrates: 42.21 g
+
+#### Benefits of Nutritional Analysis:
+1. **For Customers**: Provides transparency, enabling informed dietary choices based on caloric and nutritional needs.
+   - Helps health-conscious individuals choose low-calorie or high-protein items.
+   - Assists customers with specific dietary preferences (e.g., low-fat or high-carb options).
+2. **For McDonald's**: Enhances customer trust and promotes healthy eating initiatives.
+   - Identifies popular low-calorie and high-nutrition items to promote them further.
+   - Facilitates menu optimization by balancing health and taste preferences.
+
+### Conclusion:
+This nutritional analysis provides actionable insights to improve menu offerings and better serve the dietary needs of McDonald's diverse customer base.

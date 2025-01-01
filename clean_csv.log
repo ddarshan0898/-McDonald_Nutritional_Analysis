@@ -1,0 +1,40 @@
+2024-12-30 16:06:31,787 - INFO - Starting the cleaning process.
+2024-12-30 16:06:31,788 - INFO - Loading data from D:\Dataoperations\Nutrical_Datasetac.csv
+2024-12-30 16:06:31,856 - INFO - Data loaded successfully. Number of rows: 260, Columns: 24
+2024-12-30 16:06:31,856 - INFO - Initial data info:
+2024-12-30 16:06:32,057 - INFO - None
+2024-12-30 16:06:32,070 - INFO - Standardizing column names...
+2024-12-30 16:06:32,108 - INFO - Column names standardized: ['category', 'item', 'serving_size', 'calories', 'calories_from_fat', 'total_fat', 'total_fat_(%_daily_value)', 'saturated_fat', 'saturated_fat_(%_daily_value)', 'trans_fat', 'cholesterol', 'cholesterol_(%_daily_value)', 'sodium', 'sodium_(%_daily_value)', 'carbohydrates', 'carbohydrates_(%_daily_value)', 'dietary_fiber', 'dietary_fiber_(%_daily_value)', 'sugars', 'protein', 'vitamin_a_(%_daily_value)', 'vitamin_c_(%_daily_value)', 'calcium_(%_daily_value)', 'iron_(%_daily_value)']
+2024-12-30 16:06:32,173 - INFO - Handling missing values...
+2024-12-30 16:06:32,176 - INFO - Removing duplicates...
+2024-12-30 16:06:32,214 - INFO - Removed 0 duplicate rows.
+2024-12-30 16:06:32,219 - INFO - Converting data types where applicable...
+2024-12-30 16:06:32,259 - INFO - Column 'category' could not be converted to datetime.
+2024-12-30 16:06:32,277 - INFO - Column 'item' could not be converted to datetime.
+2024-12-30 16:06:32,291 - INFO - Column 'serving_size' could not be converted to datetime.
+2024-12-30 16:06:32,292 - INFO - Handling outliers...
+2024-12-30 16:06:32,334 - INFO - Column 'calories': Handled 6 outliers.
+2024-12-30 16:06:32,340 - INFO - Column 'calories_from_fat': Handled 4 outliers.
+2024-12-30 16:06:32,346 - INFO - Column 'total_fat': Handled 4 outliers.
+2024-12-30 16:06:32,352 - INFO - Column 'total_fat_(%_daily_value)': Handled 4 outliers.
+2024-12-30 16:06:32,365 - INFO - Column 'saturated_fat': Handled 0 outliers.
+2024-12-30 16:06:32,375 - INFO - Column 'saturated_fat_(%_daily_value)': Handled 0 outliers.
+2024-12-30 16:06:32,387 - INFO - Column 'trans_fat': Handled 56 outliers.
+2024-12-30 16:06:32,394 - INFO - Column 'cholesterol': Handled 18 outliers.
+2024-12-30 16:06:32,402 - INFO - Column 'cholesterol_(%_daily_value)': Handled 18 outliers.
+2024-12-30 16:06:32,408 - INFO - Column 'sodium': Handled 5 outliers.
+2024-12-30 16:06:32,419 - INFO - Column 'sodium_(%_daily_value)': Handled 5 outliers.
+2024-12-30 16:06:32,424 - INFO - Column 'carbohydrates': Handled 17 outliers.
+2024-12-30 16:06:32,430 - INFO - Column 'carbohydrates_(%_daily_value)': Handled 16 outliers.
+2024-12-30 16:06:32,441 - INFO - Column 'dietary_fiber': Handled 0 outliers.
+2024-12-30 16:06:32,450 - INFO - Column 'dietary_fiber_(%_daily_value)': Handled 4 outliers.
+2024-12-30 16:06:32,455 - INFO - Column 'sugars': Handled 4 outliers.
+2024-12-30 16:06:32,464 - INFO - Column 'protein': Handled 3 outliers.
+2024-12-30 16:06:32,474 - INFO - Column 'vitamin_a_(%_daily_value)': Handled 17 outliers.
+2024-12-30 16:06:32,485 - INFO - Column 'vitamin_c_(%_daily_value)': Handled 46 outliers.
+2024-12-30 16:06:32,489 - INFO - Column 'calcium_(%_daily_value)': Handled 2 outliers.
+2024-12-30 16:06:32,497 - INFO - Column 'iron_(%_daily_value)': Handled 2 outliers.
+2024-12-30 16:06:32,502 - INFO - Saving cleaned data to D:\Dataoperations\Nutrical_Datasetacoutput.csv
+2024-12-30 16:06:32,529 - INFO - Cleaned data saved successfully.
+2024-12-30 16:06:32,530 - INFO - Final data info:
+2024-12-30 16:06:32,559 - INFO - None

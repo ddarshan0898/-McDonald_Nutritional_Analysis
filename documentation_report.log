@@ -1,0 +1,26 @@
+2024-12-30 17:18:02,595 - INFO - Starting Documentation and Reporting...
+2024-12-30 17:18:02,596 - INFO - Loading data from cleaned_data.csv
+2024-12-30 17:18:02,598 - ERROR - An error occurred during the Documentation and Reporting process: [Errno 2] No such file or directory: 'cleaned_data.csv'
+2024-12-30 17:19:52,329 - INFO - Starting Documentation and Reporting...
+2024-12-30 17:19:52,340 - INFO - Loading data from cleaned_data_nutrical_datasetacoutput.csv
+2024-12-30 17:19:52,346 - ERROR - An error occurred during the Documentation and Reporting process: [Errno 2] No such file or directory: 'cleaned_data_nutrical_datasetacoutput.csv'
+2024-12-30 17:24:20,289 - INFO - Starting Documentation and Reporting...
+2024-12-30 17:24:20,292 - INFO - Loading data from Nutrical_Datasetacoutput.csv
+2024-12-30 17:24:20,340 - INFO - Data loaded successfully. Number of rows: 260, Columns: 24
+2024-12-30 17:24:20,341 - INFO - Loading nutritional insights from nutrition_insights_nutrical_datasetacoutput.csv
+2024-12-30 17:24:20,342 - ERROR - An error occurred during the Documentation and Reporting process: [Errno 2] No such file or directory: 'nutrition_insights_nutrical_datasetacoutput.csv'
+2024-12-30 17:28:43,772 - INFO - Starting Documentation and Reporting...
+2024-12-30 17:28:43,775 - INFO - Loading data from Nutrical_Datasetacoutput.csv
+2024-12-30 17:28:43,784 - INFO - Data loaded successfully. Number of rows: 260, Columns: 24
+2024-12-30 17:28:43,785 - INFO - Loading nutritional insights from nutrition_insights_nutrical_datasetacoutput.csv
+2024-12-30 17:28:43,787 - ERROR - An error occurred during the Documentation and Reporting process: [Errno 2] No such file or directory: 'nutrition_insights_nutrical_datasetacoutput.csv'
+2024-12-30 17:36:33,665 - INFO - Starting Documentation and Reporting...
+2024-12-30 17:36:33,667 - INFO - Loading data from Nutrical_Datasetacoutput.csv
+2024-12-30 17:36:33,677 - INFO - Data loaded successfully. Number of rows: 260, Columns: 24
+2024-12-30 17:36:33,678 - INFO - Loading nutritional insights from nutrition_insights_nutrical_datasetacoutput.csv
+2024-12-30 17:36:33,679 - ERROR - An error occurred during the Documentation and Reporting process: No columns to parse from file
+2024-12-30 19:41:21,127 - INFO - Loading nutritional insights data from nutrition_insights.csv
+2024-12-30 19:41:21,193 - INFO - Data loaded successfully. Number of rows: 9, Columns: 5
+2024-12-30 19:41:21,194 - INFO - Generating key findings...
+2024-12-30 19:41:21,216 - INFO - Key findings generated successfully.
+2024-12-30 19:41:21,219 - INFO - Documentation and Reporting completed successfully. Report saved to nutrition_analysis_report.txt

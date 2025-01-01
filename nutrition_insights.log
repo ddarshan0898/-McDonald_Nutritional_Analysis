@@ -1,0 +1,94 @@
+2024-12-30 16:59:17,821 - INFO - Starting Nutrition-Based Insights...
+2024-12-30 16:59:17,824 - INFO - Loading cleaned data from cleaned_data.csv
+2024-12-30 16:59:17,826 - ERROR - An error occurred during the Nutrition-Based Insights process: [Errno 2] No such file or directory: 'cleaned_data.csv'
+2024-12-30 17:01:24,253 - INFO - Starting Nutrition-Based Insights...
+2024-12-30 17:01:24,256 - INFO - Loading cleaned data from cleaned_data.csv
+2024-12-30 17:01:24,258 - ERROR - An error occurred during the Nutrition-Based Insights process: [Errno 2] No such file or directory: 'cleaned_data.csv'
+2024-12-30 17:02:49,349 - INFO - Starting Nutrition-Based Insights...
+2024-12-30 17:02:49,352 - INFO - Loading cleaned data from cleaned_data.csv
+2024-12-30 17:02:49,357 - ERROR - An error occurred during the Nutrition-Based Insights process: [Errno 2] No such file or directory: 'cleaned_data.csv'
+2024-12-30 17:03:33,807 - INFO - Starting Nutrition-Based Insights...
+2024-12-30 17:03:33,810 - INFO - Loading cleaned data from Nutrical_Datasetacoutput.csv
+2024-12-30 17:03:33,828 - INFO - Data loaded successfully. Number of rows: 260, Columns: 24
+2024-12-30 17:03:33,831 - INFO - Identifying menu items with the highest and lowest calorie counts...
+2024-12-30 17:03:33,835 - INFO - Menu item(s) with the highest calorie count:
+          category                                               item  ... calcium_(%_daily_value)  iron_(%_daily_value)
+31       Breakfast      Big Breakfast with Hotcakes (Regular Biscuit)  ...                    25.0                  37.5
+32       Breakfast        Big Breakfast with Hotcakes (Large Biscuit)  ...                    30.0                  37.5
+33       Breakfast  Big Breakfast with Hotcakes and Egg Whites (Re...  ...                    25.0                  30.0
+34       Breakfast  Big Breakfast with Hotcakes and Egg Whites (La...  ...                    25.0                  30.0
+81  Chicken & Fish                       Chicken McNuggets (20 piece)  ...                     4.0                  10.0
+82  Chicken & Fish                       Chicken McNuggets (40 piece)  ...                     8.0                  25.0
+
+[6 rows x 24 columns]
+2024-12-30 17:03:33,960 - INFO - Menu item(s) with the lowest calorie count:
+         category                     item  ... calcium_(%_daily_value)  iron_(%_daily_value)
+114     Beverages        Diet Coke (Small)  ...                     0.0                   0.0
+115     Beverages       Diet Coke (Medium)  ...                     0.0                   0.0
+116     Beverages        Diet Coke (Large)  ...                     0.0                   0.0
+117     Beverages        Diet Coke (Child)  ...                     0.0                   0.0
+122     Beverages   Diet Dr Pepper (Small)  ...                     0.0                   0.0
+123     Beverages  Diet Dr Pepper (Medium)  ...                     0.0                   0.0
+124     Beverages   Diet Dr Pepper (Large)  ...                     0.0                   0.0
+125     Beverages   Diet Dr Pepper (Child)  ...                     0.0                   0.0
+136     Beverages      Dasani Water Bottle  ...                     0.0                   0.0
+137  Coffee & Tea         Iced Tea (Small)  ...                     0.0                   0.0
+138  Coffee & Tea        Iced Tea (Medium)  ...                     0.0                   0.0
+139  Coffee & Tea         Iced Tea (Large)  ...                     0.0                   0.0
+140  Coffee & Tea         Iced Tea (Child)  ...                     0.0                   0.0
+145  Coffee & Tea           Coffee (Small)  ...                     0.0                   0.0
+146  Coffee & Tea          Coffee (Medium)  ...                     0.0                   0.0
+147  Coffee & Tea           Coffee (Large)  ...                     0.0                   0.0
+
+[16 rows x 24 columns]
+2024-12-30 17:03:34,067 - INFO - Calculating average nutritional content for popular categories...
+2024-12-30 17:03:34,070 - ERROR - An error occurred during the Nutrition-Based Insights process: "Columns not found: 'fat'"
+2024-12-30 17:04:35,651 - INFO - Starting Nutrition-Based Insights...
+2024-12-30 17:04:35,652 - INFO - Loading cleaned data from Nutrical_Datasetacoutput.csv
+2024-12-30 17:04:35,669 - INFO - Data loaded successfully. Number of rows: 260, Columns: 24
+2024-12-30 17:04:35,670 - INFO - Identifying menu items with the highest and lowest calorie counts...
+2024-12-30 17:04:35,674 - INFO - Menu item(s) with the highest calorie count:
+          category                                               item  ... calcium_(%_daily_value)  iron_(%_daily_value)
+31       Breakfast      Big Breakfast with Hotcakes (Regular Biscuit)  ...                    25.0                  37.5
+32       Breakfast        Big Breakfast with Hotcakes (Large Biscuit)  ...                    30.0                  37.5
+33       Breakfast  Big Breakfast with Hotcakes and Egg Whites (Re...  ...                    25.0                  30.0
+34       Breakfast  Big Breakfast with Hotcakes and Egg Whites (La...  ...                    25.0                  30.0
+81  Chicken & Fish                       Chicken McNuggets (20 piece)  ...                     4.0                  10.0
+82  Chicken & Fish                       Chicken McNuggets (40 piece)  ...                     8.0                  25.0
+
+[6 rows x 24 columns]
+2024-12-30 17:04:35,774 - INFO - Menu item(s) with the lowest calorie count:
+         category                     item  ... calcium_(%_daily_value)  iron_(%_daily_value)
+114     Beverages        Diet Coke (Small)  ...                     0.0                   0.0
+115     Beverages       Diet Coke (Medium)  ...                     0.0                   0.0
+116     Beverages        Diet Coke (Large)  ...                     0.0                   0.0
+117     Beverages        Diet Coke (Child)  ...                     0.0                   0.0
+122     Beverages   Diet Dr Pepper (Small)  ...                     0.0                   0.0
+123     Beverages  Diet Dr Pepper (Medium)  ...                     0.0                   0.0
+124     Beverages   Diet Dr Pepper (Large)  ...                     0.0                   0.0
+125     Beverages   Diet Dr Pepper (Child)  ...                     0.0                   0.0
+136     Beverages      Dasani Water Bottle  ...                     0.0                   0.0
+137  Coffee & Tea         Iced Tea (Small)  ...                     0.0                   0.0
+138  Coffee & Tea        Iced Tea (Medium)  ...                     0.0                   0.0
+139  Coffee & Tea         Iced Tea (Large)  ...                     0.0                   0.0
+140  Coffee & Tea         Iced Tea (Child)  ...                     0.0                   0.0
+145  Coffee & Tea           Coffee (Small)  ...                     0.0                   0.0
+146  Coffee & Tea          Coffee (Medium)  ...                     0.0                   0.0
+147  Coffee & Tea           Coffee (Large)  ...                     0.0                   0.0
+
+[16 rows x 24 columns]
+2024-12-30 17:04:35,885 - INFO - Calculating average nutritional content for popular categories...
+2024-12-30 17:04:35,889 - INFO - Average nutritional content by category:
+                      calories  total_fat    protein  carbohydrates
+category                                                           
+Beef & Pork         494.000000  24.866667  26.900000      40.133333
+Beverages           113.703704   0.092593   1.333333      28.814815
+Breakfast           513.809524  27.407738  19.857143      49.000000
+Chicken & Fish      517.777778  24.263889  27.333333      48.592593
+Coffee & Tea        283.894737   8.021053   8.863158      44.463158
+Desserts            222.142857   7.357143   4.000000      34.857143
+Salads              270.000000  11.750000  19.833333      21.666667
+Smoothies & Shakes  531.428571  14.125000  10.857143      83.250000
+Snacks & Sides      245.769231  10.538462   8.384615      29.153846
+2024-12-30 17:04:35,926 - INFO - Nutrition insights saved to nutrition_insights.csv
+2024-12-30 17:04:35,926 - INFO - Nutrition-Based Insights completed successfully.

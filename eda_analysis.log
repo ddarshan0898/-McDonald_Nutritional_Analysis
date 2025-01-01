@@ -1,0 +1,138 @@
+2024-12-30 16:14:05,503 - INFO - Starting Exploratory Data Analysis (EDA)...
+2024-12-30 16:14:05,503 - INFO - Loading cleaned data from Nutrical_Datasetacoutput.csv
+2024-12-30 16:14:05,525 - INFO - Data loaded successfully. Number of rows: 260, Columns: 24
+2024-12-30 16:14:05,525 - INFO - Dataset overview:
+2024-12-30 16:14:05,552 - INFO - None
+2024-12-30 16:14:05,725 - INFO - Summary statistics:
+            category                                              item  ... calcium_(%_daily_value)  iron_(%_daily_value)
+count            260                                               260  ...              260.000000            260.000000
+unique             9                                               260  ...                     NaN                   NaN
+top     Coffee & Tea  McFlurry with Reese's Peanut Butter Cups (Snack)  ...                     NaN                   NaN
+freq              95                                                 1  ...                     NaN                   NaN
+mean             NaN                                               NaN  ...               20.942308              7.715385
+std              NaN                                               NaN  ...               16.934365              8.654331
+min              NaN                                               NaN  ...                0.000000              0.000000
+25%              NaN                                               NaN  ...                6.000000              0.000000
+50%              NaN                                               NaN  ...               20.000000              4.000000
+75%              NaN                                               NaN  ...               30.000000             15.000000
+max              NaN                                               NaN  ...               66.000000             37.500000
+
+[11 rows x 24 columns]
+2024-12-30 16:14:05,999 - INFO - Analyzing the distribution of calorie counts...
+2024-12-30 16:14:06,009 - INFO - Calorie Statistics:
+count    260.000000
+mean     362.538462
+std      217.701441
+min        0.000000
+25%      210.000000
+50%      340.000000
+75%      500.000000
+max      935.000000
+Name: calories, dtype: float64
+2024-12-30 16:14:06,016 - INFO - Analyzing 'protein' distribution...
+2024-12-30 16:14:06,020 - INFO - 'protein' Statistics:
+count    260.000000
+mean      13.128846
+std       10.510968
+min        0.000000
+25%        4.000000
+50%       12.000000
+75%       19.000000
+max       41.500000
+Name: protein, dtype: float64
+2024-12-30 16:14:06,029 - INFO - Analyzing 'carbohydrates' distribution...
+2024-12-30 16:14:06,031 - INFO - 'carbohydrates' Statistics:
+count    260.000000
+mean      46.376923
+std       25.709174
+min        0.000000
+25%       30.000000
+50%       44.000000
+75%       60.000000
+max      105.000000
+Name: carbohydrates, dtype: float64
+2024-12-30 16:14:06,036 - INFO - Exploring trends and patterns...
+2024-12-30 16:14:06,049 - INFO - Correlation between 'calories' and 'protein': 0.76
+2024-12-30 16:14:06,051 - INFO - Analyzing average calories by category...
+2024-12-30 16:14:06,058 - INFO - Average Calories by Category:
+category
+Beef & Pork           494.000000
+Beverages             113.703704
+Breakfast             513.809524
+Chicken & Fish        517.777778
+Coffee & Tea          283.894737
+Desserts              222.142857
+Salads                270.000000
+Smoothies & Shakes    531.428571
+Snacks & Sides        245.769231
+Name: calories, dtype: float64
+2024-12-30 16:14:06,065 - INFO - EDA completed successfully.
+2024-12-30 16:14:09,023 - INFO - Starting Exploratory Data Analysis (EDA)...
+2024-12-30 16:14:09,026 - INFO - Loading cleaned data from Nutrical_Datasetacoutput.csv
+2024-12-30 16:14:09,034 - INFO - Data loaded successfully. Number of rows: 260, Columns: 24
+2024-12-30 16:14:09,035 - INFO - Dataset overview:
+2024-12-30 16:14:09,055 - INFO - None
+2024-12-30 16:14:09,121 - INFO - Summary statistics:
+            category                                              item  ... calcium_(%_daily_value)  iron_(%_daily_value)
+count            260                                               260  ...              260.000000            260.000000
+unique             9                                               260  ...                     NaN                   NaN
+top     Coffee & Tea  McFlurry with Reese's Peanut Butter Cups (Snack)  ...                     NaN                   NaN
+freq              95                                                 1  ...                     NaN                   NaN
+mean             NaN                                               NaN  ...               20.942308              7.715385
+std              NaN                                               NaN  ...               16.934365              8.654331
+min              NaN                                               NaN  ...                0.000000              0.000000
+25%              NaN                                               NaN  ...                6.000000              0.000000
+50%              NaN                                               NaN  ...               20.000000              4.000000
+75%              NaN                                               NaN  ...               30.000000             15.000000
+max              NaN                                               NaN  ...               66.000000             37.500000
+
+[11 rows x 24 columns]
+2024-12-30 16:14:09,222 - INFO - Analyzing the distribution of calorie counts...
+2024-12-30 16:14:09,225 - INFO - Calorie Statistics:
+count    260.000000
+mean     362.538462
+std      217.701441
+min        0.000000
+25%      210.000000
+50%      340.000000
+75%      500.000000
+max      935.000000
+Name: calories, dtype: float64
+2024-12-30 16:14:09,232 - INFO - Analyzing 'protein' distribution...
+2024-12-30 16:14:09,236 - INFO - 'protein' Statistics:
+count    260.000000
+mean      13.128846
+std       10.510968
+min        0.000000
+25%        4.000000
+50%       12.000000
+75%       19.000000
+max       41.500000
+Name: protein, dtype: float64
+2024-12-30 16:14:09,241 - INFO - Analyzing 'carbohydrates' distribution...
+2024-12-30 16:14:09,244 - INFO - 'carbohydrates' Statistics:
+count    260.000000
+mean      46.376923
+std       25.709174
+min        0.000000
+25%       30.000000
+50%       44.000000
+75%       60.000000
+max      105.000000
+Name: carbohydrates, dtype: float64
+2024-12-30 16:14:09,250 - INFO - Exploring trends and patterns...
+2024-12-30 16:14:09,252 - INFO - Correlation between 'calories' and 'protein': 0.76
+2024-12-30 16:14:09,253 - INFO - Analyzing average calories by category...
+2024-12-30 16:14:09,256 - INFO - Average Calories by Category:
+category
+Beef & Pork           494.000000
+Beverages             113.703704
+Breakfast             513.809524
+Chicken & Fish        517.777778
+Coffee & Tea          283.894737
+Desserts              222.142857
+Salads                270.000000
+Smoothies & Shakes    531.428571
+Snacks & Sides        245.769231
+Name: calories, dtype: float64
+2024-12-30 16:14:09,262 - INFO - EDA completed successfully.
